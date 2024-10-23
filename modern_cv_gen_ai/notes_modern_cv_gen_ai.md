@@ -54,3 +54,4 @@ train_ds = train_ds.map(
    num_parallel_calls=tf.data.AUTOTUNE
 )
 ```
+This line applies the `augmenter` to the `train_ds` dataset using the `map` function, optimizing the number of parallel calls for performance.
