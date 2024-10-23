@@ -5,7 +5,7 @@
 
 It is a technique used in CV and on Object Detection tasks to increase the size of the trainign dataset using diferent image tranformations to the original data set to generate new sample images.
 
-![](https://github-production-user-asset-6210df.s3.amazonaws.com/61529697/372190206-70daa58f-1230-4838-9d01-39c1c3b48460.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240930%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240930T175221Z&X-Amz-Expires=300&X-Amz-Signature=43301adf512993cdda09eee8da2161d3d320fcb3548e72269b7acbc7648084db&X-Amz-SignedHeaders=host)
+![](https://private-user-images.githubusercontent.com/61529697/379387688-ab35ab6b-0ed8-4639-b49d-5113583de97d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk3MDI1NTUsIm5iZiI6MTcyOTcwMjI1NSwicGF0aCI6Ii82MTUyOTY5Ny8zNzkzODc2ODgtYWIzNWFiNmItMGVkOC00NjM5LWI0OWQtNTExMzU4M2RlOTdkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDIzVDE2NTA1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjMWQ3ODRlMjMzOWNiYjczOGEzM2UyZDhjMGMyZTE1OWE5ZDEwYWM3ODI0NmMzZGI0Nzk1NzExYWQ2Yzk0ZTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.R41M5O8jpw271zEr_GCc7HeKwQTVICLHqJ3P5ehf5Kk)
 
 * Rotation
 * Blur
