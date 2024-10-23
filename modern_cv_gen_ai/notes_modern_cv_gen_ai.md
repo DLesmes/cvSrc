@@ -28,3 +28,29 @@ It is a technique used in CV and on Object Detection tasks to increase the size 
 * Handling Real-World Variability
 * Enhanced Object Detection
 * Reducion Annotation Effort
+
+### Code sample
+
+Keras Sequential model for data augmentation
+
+```python
+augmenter = keras.Sequential(
+    layers=[
+        keras_cv.layers.RandomFlip(
+            mode="horizontal",
+            bounding_box_format="xywh",
+        ),
+        keras_cv.layers.JitteredResize(
+            target_size=(640, 640),
+            scale_factor=(0.75, 1.3),
+            bounding_box_format="xywh",
+        ),
+    ]
+)
+```
+```
+train_ds = train_ds.map(
+   augmenter,
+   num_parallel_calls=tf.data.AUTOTUNE
+)
+```
