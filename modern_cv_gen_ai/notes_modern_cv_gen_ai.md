@@ -55,3 +55,11 @@ train_ds = train_ds.map(
 )
 ```
 This line applies the `augmenter` to the `train_ds` dataset using the `map` function, optimizing the number of parallel calls for performance.
+
+## tmp code snipped
+
+```
+path_to_download_file = keras.utils.get_file(
+ origin=
+)
+```
